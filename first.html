@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow</title>
+    <style>
+        #vis
+        {
+            height: 50px;
+            width: 150px;
+            background-color: aquamarine;
+        }
+        #hid
+        {
+            height: 50px;
+            width: 150px;
+            background-color: brown;
+            overflow: hidden;
+        }
+         #scr
+        {
+            height: 50px;
+            width: 100px;
+            background-color: brown;
+            overflow: scroll;
+        }
+        #aut
+        {
+            height: 50px;
+            width: 150px;
+            background-color: brown;
+            overflow: auto;
+        }
+         #scrx
+        {
+            height: 50px;
+            width: 150px;
+            background-color: brown;
+            overflow-x: hidden;
+            overflow-y: scroll;
+        }
+    </style>
+</head>
+<body>
+    <h2>visible overflow</h2>
+    <div id="vis">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit!
+    </div>
+    <br><br>
+    <h2>hidden overflow</h2>
+    <div id="hid">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit!
+    </div>
+    <h2>Scroll overflow</h2>
+    <div id="scr">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit!
+    </div>
+    <h2>auto overflow</h2>
+    <div id="aut">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit!
+    </div>
+    <h2>Scroll-X overflow</h2>
+    <div id="scrx">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, reprehenderit!
+    </div>
+    
+</body>
+</html>
